@@ -1,0 +1,45 @@
+<form class="example-form" [formGroup]="teacherform" (ngSubmit)="SaveTeacher()">
+    <mat-form-field class="example-full-width">
+        <mat-label>Id</mat-label>
+        <input matInput placeholder="ID" formControlName="id">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>First Name:</mat-label>
+        <input matInput placeholder="Enter Your First Name..." formControlName="firstName">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Middle Name:</mat-label>
+        <input matInput placeholder="Enter Your Middle Name..." formControlName="middleName">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Last Name:</mat-label>
+        <input matInput placeholder="Enter Your Last Name..." formControlName="lastName">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Gender:</mat-label>
+        <input matInput placeholder="Enter Your Gender..." formControlName="gender">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Phone Number:</mat-label>
+        <input matInput placeholder="Enter Your Phone Number..." formControlName="phoneNumber">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Enter Your Email..." formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Address</mat-label>
+        <input matInput placeholder="Enter Your Address..." formControlName="address">
+    </mat-form-field>
+    <div class="example-button-row">
+        <button mat-raised-button style="background-color: red;">Save</button>
+        <a (click)="Closepopup()" mat-raised-button style="background-color: blue;">Close</a>
+    </div>
+</form>

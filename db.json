@@ -1,0 +1,54 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "firstName": "Kasule",
+      "middleName": "Jamal",
+      "lastName": "Lukenge",
+      "gender": "Male",
+      "email": "jamalkasule123@gmail.com",
+      "phoneNumber": "0753073101",
+      "address": "Kyanja"
+    },
+    {
+      "firstName": "Kasule",
+      "middleName": "Jassim",
+      "lastName": "Kakande",
+      "gender": "Male",
+      "email": "jassimkasule@gmail.com",
+      "phoneNumber": "0705908699",
+      "address": "Kyanja",
+      "id": 2
+    },
+    {
+      "firstName": "Kasule",
+      "middleName": "Juma",
+      "lastName": "Kasujja",
+      "gender": "Male",
+      "email": "jumakasule@gmail.com",
+      "phoneNumber": "0756775176",
+      "address": "Kyanja",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "firstName": "Nantongo",
+      "middleName": "Rahma",
+      "lastName": "Lutale",
+      "gender": "Female",
+      "email": "rahmalutale@gmail.co",
+      "phoneNumber": "0771851857",
+      "address": "Kyanja"
+    },
+    {
+      "firstName": "Mugenyi",
+      "middleName": "Khassim",
+      "lastName": "Kakooza",
+      "gender": "Male",
+      "email": "kassim@gmail.com",
+      "phoneNumber": "0759262549",
+      "address": "Mutundwe",
+      "id": 5
+    }
+  ]
+}
